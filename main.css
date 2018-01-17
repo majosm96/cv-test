@@ -1,0 +1,39 @@
+body {
+  background-color: #1a1919;
+  background-image: url(https://www.engine.xyz/wp-content/themes/the-engine-wp-theme/static/img/img-noise.png); }
+
+.example {
+  display: flex;
+  transition: all .2s;
+  user-select: none;
+  background: #e2b437; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fff;
+  font-weight: 200;
+  font-family: 'Encode Sans Semi Expanded', sans-serif; }
+
+.skill-item {
+  margin: 0 auto;
+  border: 1px solid -webkit-linear-gradient(340deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+  width: 20%;
+  border-radius: 40px; }
+
+.skill__title {
+  text-align: center; }
+
+.skill-item-img {
+  margin: 1.5rem;
+  width: 50px;
+  text-align: center; }
+
+.skill-item-description {
+  padding: 2rem;
+  color: #e6e6e6;
+  text-align: center;
+  font-weight: 200;
+  font-family: 'Encode Sans Semi Expanded', sans-serif; }

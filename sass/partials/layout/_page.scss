@@ -1,0 +1,89 @@
+.l-content {
+    margin: 0 auto;
+    width: 100%;
+
+    @include query(500px) {
+        width: 85%;
+    }
+
+    @include query(800px) {
+        width: 65%;
+    }
+}
+
+.l-group {
+    @include micro-clearfix;
+}
+
+.group {
+    @include micro-clearfix;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.section-wrap {
+    padding: 4rem $space-base;
+
+    @include query(600px) {
+        padding: $space-x-large $space-medium;
+    }
+}
+
+.wrapper {
+    background-color: #fff;
+    position: relative;
+}
+
+//Backgrounds
+.bg-pattern {
+    background-image: url(../img/dot_final.png);
+    background-size: 12px;
+    background-repeat: repeat;
+}
+
+.bg-pattern--small  {
+    background-size: 8px;
+}
+
+
+.bg-red {
+    background-color: $main-color;
+}
+
+.bg-red__variant {
+    background-color: $main-color;
+}
+
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-light-blue {
+    background-color: $light-blue;
+}
+
+.bg-purple {
+    background-color: $purple;
+}
+
+.bg-orange {
+    background-color: $orange;
+}
+
+.bg-pink {
+    background-color: $pink;
+}
+
+.bg-pink-orange {
+    background-color: $pink-orange;
+}
+
+.bg-yellow {
+    background-color: $yellow;
+}
+
+
+.bg-white2 {
+    background-color: rgba(255, 255, 255, 0.86);
+}
